@@ -1,0 +1,19 @@
+import platform
+import scipy
+import numpy
+import matplotlib
+import pandas
+import statsmodels
+import sklearn
+import tensorflow
+import keras
+
+print('python: {}'.format(platform.python_version()))
+print('scipy: {}'.format(scipy.__version__))
+print('numpy: {}'.format(numpy.__version__))
+print('matplotlib: {}'.format(matplotlib.__version__))
+print('pandas: {}'.format(pandas.__version__))
+print('statsmodels: {}'.format(statsmodels.__version__))
+print('sklearn: {}'.format(sklearn.__version__))
+print('tensorflow: {}'.format(tensorflow.__version__))
+print('keras: {}'.format(keras.__version__))
